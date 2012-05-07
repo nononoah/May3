@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F11610E154E261800633C20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F11610D154E261800633C20 /* UIKit.framework */; };
+		4F116110154E261800633C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F11610F154E261800633C20 /* Foundation.framework */; };
+		4F116112154E261800633C20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F116111154E261800633C20 /* CoreGraphics.framework */; };
+		4F116118154E261800633C20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F116116154E261800633C20 /* InfoPlist.strings */; };
+		4F11611A154E261800633C20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F116119154E261800633C20 /* main.m */; };
+		4F11611E154E261800633C20 /* May3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11611D154E261800633C20 /* May3AppDelegate.m */; };
+		4F11612D154E272000633C20 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11612C154E271F00633C20 /* View.m */; };
+		4F116130154E275200633C20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11612F154E275200633C20 /* ViewController.m */; };
+		4F247E2A154E2CF000665219 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F247E29154E2CF000665219 /* QuartzCore.framework */; };
+		4F419F801557493200CEB5C8 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F419F7F1557493200CEB5C8 /* Score.m */; };
+		4F419F8B1557581D00CEB5C8 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F419F8A1557581D00CEB5C8 /* beep.mp3 */; };
+		4F419F8D15575C5B00CEB5C8 /* May3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F419F8C15575C5B00CEB5C8 /* May3.png */; };
+		4FF8AC651550D4FC004B3CFE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF8AC641550D4FC004B3CFE /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F116109154E261800633C20 /* May3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = May3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F11610D154E261800633C20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F11610F154E261800633C20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F116111154E261800633C20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F116115154E261800633C20 /* May3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "May3-Info.plist"; sourceTree = "<group>"; };
+		4F116117154E261800633C20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F116119154E261800633C20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F11611B154E261800633C20 /* May3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "May3-Prefix.pch"; sourceTree = "<group>"; };
+		4F11611C154E261800633C20 /* May3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = May3AppDelegate.h; sourceTree = "<group>"; };
+		4F11611D154E261800633C20 /* May3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = May3AppDelegate.m; sourceTree = "<group>"; };
+		4F11612B154E271F00633C20 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		4F11612C154E271F00633C20 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		4F11612E154E275200633C20 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F11612F154E275200633C20 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F247E29154E2CF000665219 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F419F7E1557493200CEB5C8 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		4F419F7F1557493200CEB5C8 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		4F419F8A1557581D00CEB5C8 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep.mp3; path = May3/beep.mp3; sourceTree = "<group>"; };
+		4F419F8C15575C5B00CEB5C8 /* May3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = May3.png; path = May3/May3.png; sourceTree = "<group>"; };
+		4FF8AC641550D4FC004B3CFE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F116106154E261800633C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF8AC651550D4FC004B3CFE /* AudioToolbox.framework in Frameworks */,
+				4F247E2A154E2CF000665219 /* QuartzCore.framework in Frameworks */,
+				4F11610E154E261800633C20 /* UIKit.framework in Frameworks */,
+				4F116110154E261800633C20 /* Foundation.framework in Frameworks */,
+				4F116112154E261800633C20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1160FE154E261700633C20 = {
+			isa = PBXGroup;
+			children = (
+				4F419F8A1557581D00CEB5C8 /* beep.mp3 */,
+				4F419F8C15575C5B00CEB5C8 /* May3.png */,
+				4F116113154E261800633C20 /* May3 */,
+				4F11610C154E261800633C20 /* Frameworks */,
+				4F11610A154E261800633C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F11610A154E261800633C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F116109154E261800633C20 /* May3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F11610C154E261800633C20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF8AC641550D4FC004B3CFE /* AudioToolbox.framework */,
+				4F247E29154E2CF000665219 /* QuartzCore.framework */,
+				4F11610D154E261800633C20 /* UIKit.framework */,
+				4F11610F154E261800633C20 /* Foundation.framework */,
+				4F116111154E261800633C20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F116113154E261800633C20 /* May3 */ = {
+			isa = PBXGroup;
+			children = (
+				4F11611C154E261800633C20 /* May3AppDelegate.h */,
+				4F11611D154E261800633C20 /* May3AppDelegate.m */,
+				4F11612E154E275200633C20 /* ViewController.h */,
+				4F11612F154E275200633C20 /* ViewController.m */,
+				4F11612B154E271F00633C20 /* View.h */,
+				4F11612C154E271F00633C20 /* View.m */,
+				4F419F7E1557493200CEB5C8 /* Score.h */,
+				4F419F7F1557493200CEB5C8 /* Score.m */,
+				4F116114154E261800633C20 /* Supporting Files */,
+			);
+			path = May3;
+			sourceTree = "<group>";
+		};
+		4F116114154E261800633C20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F116115154E261800633C20 /* May3-Info.plist */,
+				4F116116154E261800633C20 /* InfoPlist.strings */,
+				4F116119154E261800633C20 /* main.m */,
+				4F11611B154E261800633C20 /* May3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F116108154E261800633C20 /* May3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F116121154E261800633C20 /* Build configuration list for PBXNativeTarget "May3" */;
+			buildPhases = (
+				4F116105154E261800633C20 /* Sources */,
+				4F116106154E261800633C20 /* Frameworks */,
+				4F116107154E261800633C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = May3;
+			productName = May3;
+			productReference = 4F116109154E261800633C20 /* May3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F116100154E261700633C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = May3;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4F116103154E261700633C20 /* Build configuration list for PBXProject "May3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F1160FE154E261700633C20;
+			productRefGroup = 4F11610A154E261800633C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F116108154E261800633C20 /* May3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F116107154E261800633C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F116118154E261800633C20 /* InfoPlist.strings in Resources */,
+				4F419F8B1557581D00CEB5C8 /* beep.mp3 in Resources */,
+				4F419F8D15575C5B00CEB5C8 /* May3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F116105154E261800633C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F11611A154E261800633C20 /* main.m in Sources */,
+				4F11611E154E261800633C20 /* May3AppDelegate.m in Sources */,
+				4F11612D154E272000633C20 /* View.m in Sources */,
+				4F116130154E275200633C20 /* ViewController.m in Sources */,
+				4F419F801557493200CEB5C8 /* Score.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F116116154E261800633C20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F116117154E261800633C20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F11611F154E261800633C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F116120154E261800633C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F116122154E261800633C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May3/May3-Prefix.pch";
+				INFOPLIST_FILE = "May3/May3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F116123154E261800633C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "May3/May3-Prefix.pch";
+				INFOPLIST_FILE = "May3/May3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F116103154E261700633C20 /* Build configuration list for PBXProject "May3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F11611F154E261800633C20 /* Debug */,
+				4F116120154E261800633C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F116121154E261800633C20 /* Build configuration list for PBXNativeTarget "May3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F116122154E261800633C20 /* Debug */,
+				4F116123154E261800633C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F116100154E261700633C20 /* Project object */;
+}
